@@ -1,27 +1,23 @@
 \documentclass[12pt]{article}
 
-% --- Página y tipografía ---
 \usepackage[letterpaper,margin=2.5cm]{geometry}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc} % si compilas con pdfLaTeX
+\usepackage[utf8]{inputenc} 
 \usepackage{lmodern}
 \usepackage{microtype}
 
-% --- Imágenes y color ---
 \usepackage{graphicx}
 \usepackage{xcolor}
 
-% --- Control fino de espacios ---
 \usepackage{setspace}
 \setlength{\parindent}{0pt}
 
 \begin{document}
 \thispagestyle{empty}
 
-% ===== Encabezado con logos + texto =====
 \begin{minipage}[c]{0.18\textwidth}
     \centering
-    % Cambia por tu logo izquierdo
+
     \includegraphics[width=0.95\linewidth]{logo_usac.jpg}
 \end{minipage}
 \hfill
@@ -36,18 +32,17 @@
 \hfill
 \begin{minipage}[c]{0.18\textwidth}
     \centering
-    % Cambia por tu logo derecho
+    
     \includegraphics[width=1.4\linewidth]{logo_ecfm.jpg}
 \end{minipage}
 
 \vspace{0.5cm}
 
-% Línea horizontal superior (gruesa)
+
 \noindent\rule{\textwidth}{1.2pt}
 
 \vspace{0.2cm}
 
-% ===== Título =====
 \begin{center}
     {\Large\scshape Tarea 1}\\[0.3em]
 \end{center}
@@ -70,4 +65,3 @@ Una de las áreas en las que me gustaría trabajar es en la Física Atómica, Mo
 La programación es indispensable en la física atómica, molecular y óptica porque gracias a ella podemos modelar sistemas cuánticos complejos, simular interacciones luz-materia y controlar experimentos de precisión, como el enfriamiento de átomos. 
 
 \end{document}
-
